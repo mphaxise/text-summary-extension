@@ -1,0 +1,57 @@
+/* General styling */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  background-color: #0070c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0058a5;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 112, 201, 0.4);
+}
+
+/* Textarea styling */
+textarea {
+  font-family: inherit;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 8px;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  background-color: #fff;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #0070c9;
+  box-shadow: 0 0 0 2px rgba(0, 112, 201, 0.2);
+}
